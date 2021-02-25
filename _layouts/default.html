@@ -20,9 +20,6 @@
                 <li class="transition">
                     <a href="{{ '/book' | prepend: site.baseurl }}" {% if current[1] == "book" %} class="active"{% endif %} >Book</a>
                 </li>
-                <li class="transition">
-                    <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
-                </li>
             </ul>
         </div>
       </nav>
@@ -37,13 +34,13 @@
     <main>
       {{ content }}
         
-        {% if page.text == true %}
+        <!-- {% if page.text == true %}
             {% include share.html %}
-        {% endif %}
+        {% endif %} -->
 
-      </main>
+    </main>
       
-      {% include footer.html %}
+    {% include footer.html %}
    
   </body>
   <!-- Google Tag Manager (noscript) -->
