@@ -10,7 +10,7 @@ ridi: true
 portfolio: true
 post-header: true
 header-img: "img/header.jpg"
-main-img: "img/header.jpg"
+main-img: "img/scv.jpg"
 role-title: "서버 개발자"
 role-specific: "Sketching, Prototyping, Application, Server"
 team: "앱 개발 3명, 서버 개발 2명"
