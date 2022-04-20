@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Jihye Leee
+title:          KIM JUN YOUNG
 baseurl:        ""
 url:            "https://www.jihyeleee.com"
 
@@ -16,13 +16,13 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Jihye Leee
+  name:         KIM JUN YOUNG
   url:          https://jihyeleee.com/
-  email:        iam.leejihye@gmail.com  
-  github:       iamleejihye
-  twitter:      hitchhikerj
+  email:        me@kimjunyoung.com
+  github:       k1mjunyoung
+  twitter:      
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/iamleejihye/iamleejihye.github.io
+  repo:         https://github.com/iamleejihye/k1mjunyoung.github.io

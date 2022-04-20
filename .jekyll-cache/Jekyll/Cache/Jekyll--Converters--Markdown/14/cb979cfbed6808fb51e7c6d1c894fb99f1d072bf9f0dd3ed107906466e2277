@@ -1,6 +1,6 @@
-I"�<<h1 id="jekyll과의-만남">Jekyll과의 만남</h1>
+I"�<<h1 id="jekyll과의-만남">Jekyll과의 만남</h1>
 
-<p>이 블로그 기반의 포트폴리오 사이트는 Jekyll로 만들었다. 작년 이맘때쯤, 회사 블로그에 <a href="http://www.ridicorp.com/blog/2016/11/10/highlight/">글 하나</a>를 올리게 되면서 Jekyll을 알게 되었다. 써보니 편리했다. Jekyll은 Static Page<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>로 따로 서버를 만들지 않아도 된다. 또 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">Markdown</a>으로 글을 작성할 수 있다. <a href="https://typora.io/">Typora</a> 같은 깔끔한 에디터로 글을 쓸 수 있다. 그래서 HTML로 글을 작성할 때보다 훨씬 편했다.</p>
+<p>이 블로그 기반의 포트폴리오 사이트는 Jekyll로 만들었다. 작년 이맘때쯤, 회사 블로그에 <a href="http://www.ridicorp.com/blog/2016/11/10/highlight/">글 하나</a>를 올리게 되면서 Jekyll을 알게 되었다. 써보니 편리했다. Jekyll은 Static Page<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>로 따로 서버를 만들지 않아도 된다. 또 <a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">Markdown</a>으로 글을 작성할 수 있다. <a href="https://typora.io/">Typora</a> 같은 깔끔한 에디터로 글을 쓸 수 있다. 그래서 HTML로 글을 작성할 때보다 훨씬 편했다.</p>
 
 <p>하지만 장점들에 비해 진입 장벽이 너무 컸다. 처음 회사에서 사용할 때는 어찌어찌  <code class="language-plaintext highlighter-rouge">sudo</code>를 써가며 주변에 물어가며 설치에 성공했다. 하지만 새로 산 맥북에서 Jekyll을 설치하려니 문제였다. <a href="https://jekyllrb-ko.github.io/"> Jekyll 공식 사이트</a>에 나와 있는 빠른 시작 방법 중 <code class="language-plaintext highlighter-rouge">$ gem install jekyll</code> 이 한 문장을 터미널에 치고 문제없이 Jekyll을 설치하기란 내게는 불가능한 일처럼 느껴졌다.</p>
 
@@ -55,7 +55,7 @@
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span> <span class="nx">echo</span> <span class="dl">'</span><span class="s1">if which rbenv &gt; /dev/null; then eval "$(rbenv init -)"; fi</span><span class="dl">'</span> <span class="o">&gt;&gt;</span> <span class="o">~</span><span class="sr">/.bash_profil</span><span class="err">e
 </span><span class="nx">$</span> <span class="nx">source</span> <span class="o">~</span><span class="sr">/.bash_profile</span></code></pre></figure>
 
-<p>터미널을 작업할 때마다 괄호 안의 명령어가 자동으로 실행되게 하는 코드라고 한다.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup></p>
+<p>터미널을 작업할 때마다 괄호 안의 명령어가 자동으로 실행되게 하는 코드라고 한다.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 
 <h3 id="3-ruby-242-설치">3) ruby 2.4.2 설치</h3>
 
@@ -74,7 +74,7 @@
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span> <span class="nx">jekyll</span> <span class="k">new</span> <span class="nx">my</span><span class="o">-</span><span class="nx">awesome</span><span class="o">-</span><span class="nx">site</span></code></pre></figure>
 
-<p>위 코드는 Jekyll에게 <code class="language-plaintext highlighter-rouge">my-awesome-site</code>라는 이름의 새 Blog를 만들어달라는 명령이다. 그러므로 <code class="language-plaintext highlighter-rouge">my-awesome-site</code>는 만들고자 하는 Blog 이름으로 대체하면 된다. 새로운 블로그를 만들지 않고 괜찮은 테마를 찾아서 Fork<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup>를 떠서 수정하는 방법도 있다. 커스터마이징과 관련해서는 이후 다른 글에서 설명하고자 한다. 일단 새로운 블로그를 만들어보자.</p>
+<p>위 코드는 Jekyll에게 <code class="language-plaintext highlighter-rouge">my-awesome-site</code>라는 이름의 새 Blog를 만들어달라는 명령이다. 그러므로 <code class="language-plaintext highlighter-rouge">my-awesome-site</code>는 만들고자 하는 Blog 이름으로 대체하면 된다. 새로운 블로그를 만들지 않고 괜찮은 테마를 찾아서 Fork<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>를 떠서 수정하는 방법도 있다. 커스터마이징과 관련해서는 이후 다른 글에서 설명하고자 한다. 일단 새로운 블로그를 만들어보자.</p>
 
 <p>저 코드를 입력하면 최상위 로컬 폴더에 <code class="language-plaintext highlighter-rouge">my-awesome-site</code>라는 이름의 폴더가 생성된다. 이 폴더가 나의 블로그다. 이 폴더를 Github Repository에 Push하고 Github Pages로 Publishing 하면 URL로 접근할 수도 있다. 이 내용도 다음 글에서 설명해보려고 한다.</p>
 
@@ -93,7 +93,7 @@
   <li>로컬에 만든 Jekyll Blog 폴더를 Sourcetree를 사용하여 Github 저장소(Repository)에 올리기</li>
   <li>Github Pages로 Publishing 하기</li>
   <li><a href="http://jekyllthemes.org/">Jekyll Themes</a>에서 만들고자 하는 구조의 Theme 저장소를 Fork 떠서 본격적으로 커스터마이징하기</li>
-  <li>Jekyll에서 사용하는 Liquid<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote">4</a></sup> 맛보기</li>
+  <li>Jekyll에서 사용하는 Liquid<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup> 맛보기</li>
 </ul>
 
 <h1 id="공지">공지</h1>

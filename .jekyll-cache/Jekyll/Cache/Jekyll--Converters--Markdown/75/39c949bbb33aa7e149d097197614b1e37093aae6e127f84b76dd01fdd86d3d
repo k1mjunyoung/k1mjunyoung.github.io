@@ -1,4 +1,4 @@
-I"R<h1 id="overview">Overview</h1>
+I"[R<h1 id="overview">Overview</h1>
 
 <h2 id="바야흐로-공유의-시대">바야흐로 공유의 시대</h2>
 
@@ -18,7 +18,7 @@
 
 <p><img src="img/problem-1.png" alt="기존 형광펜 문장 이미지" /></p>
 
-<h6 id="기존-형광펜-문장-이미지-형광펜을-남긴-문장-외에도-의도와-상관없이-다른-문장이-함께-이미지로-생성되며-주변-여백도-일정하지-않았다-">기존 형광펜 문장 이미지. 형광펜을 남긴 문장 외에도 의도와 상관없이 다른 문장이 함께 이미지로 생성되며 주변 여백도 일정하지 않았다. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></h6>
+<h6 id="기존-형광펜-문장-이미지-형광펜을-남긴-문장-외에도-의도와-상관없이-다른-문장이-함께-이미지로-생성되며-주변-여백도-일정하지-않았다-">기존 형광펜 문장 이미지. 형광펜을 남긴 문장 외에도 의도와 상관없이 다른 문장이 함께 이미지로 생성되며 주변 여백도 일정하지 않았다. <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h6>
 
 <h2 id="2-이미지-기반-소셜-미디어에-적합하지-않은-공유-이미지">2. 이미지 기반 소셜 미디어에 적합하지 않은 공유 이미지</h2>
 
@@ -28,11 +28,11 @@
 
 <p><img src="img/problem-2.png" alt="글자 수가 적을 때 문장 이미지" /></p>
 
-<h6 id="글자-수가-적을-때-문장-이미지-">글자 수가 적을 때 문장 이미지 <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup></h6>
+<h6 id="글자-수가-적을-때-문장-이미지-">글자 수가 적을 때 문장 이미지 <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></h6>
 
 <p><img src="img/problem-3.png" alt="글자 수가 많을 때 공유 이미지" /></p>
 
-<h6 id="글자-수가-많을-때-공유-이미지">글자 수가 많을 때 공유 이미지<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote">3</a></sup></h6>
+<h6 id="글자-수가-많을-때-공유-이미지">글자 수가 많을 때 공유 이미지<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></h6>
 
 <h2 id="3-문장-외에-다른-정보가-표시되어-있지-않다">3. 문장 외에 다른 정보가 표시되어 있지 않다.</h2>
 
@@ -148,7 +148,7 @@
 
 <h1 id="튜토리얼">튜토리얼</h1>
 
-<p>새로운 기능이 추가돼도 안내를 하지 않으면 사용자는 아예 써보지 않을 가능성이 크다. 그래서 업데이트 이후 문장 이미지 공유 기능을 적극적으로 안내했다. 튜토리얼은 앱 업데이트 이후 뷰어 진입 시 최초 한 번 뜨게 했다. 너무 많이 뜰 경우 사용자는 피로를 느낄 것이고 nngroup의 아티클<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote">4</a></sup>에 따르면 맥락에 맞게 뜨는 게 중요하기 때문에 제일 관련이 있는 뷰어에 진입 시 뜨게 했다. <br /></p>
+<p>새로운 기능이 추가돼도 안내를 하지 않으면 사용자는 아예 써보지 않을 가능성이 크다. 그래서 업데이트 이후 문장 이미지 공유 기능을 적극적으로 안내했다. 튜토리얼은 앱 업데이트 이후 뷰어 진입 시 최초 한 번 뜨게 했다. 너무 많이 뜰 경우 사용자는 피로를 느낄 것이고 nngroup의 아티클<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>에 따르면 맥락에 맞게 뜨는 게 중요하기 때문에 제일 관련이 있는 뷰어에 진입 시 뜨게 했다. <br /></p>
 
 <p><img src="img/tutorial.gif" width="400px" style="text-align: center;" /></p>
 
