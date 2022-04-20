@@ -14,8 +14,8 @@
     
     <!-- share image
       <meta property="og:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% else %}{{ site.url }}{{ '/img/share-img.jpg'}}{% endif %}">
+      <meta name="twitter:card" content="summary_large_image">
     -->
-    <meta name="twitter:card" content="summary_large_image"> 
     
     <!-- title -->
     <meta property="og:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
