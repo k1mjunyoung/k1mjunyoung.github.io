@@ -11,6 +11,7 @@
                 <li class="transition">
                     <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "book" or current[1] == "project" %} class="normal" {% endif %} class="active">Home</a>
                 </li>
+                <!-- disable menu
                 <li class="transition">
                     <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Project</a>
                 </li>
@@ -20,6 +21,7 @@
                 <li class="transition">
                     <a href="{{ '/book' | prepend: site.baseurl }}" {% if current[1] == "book" %} class="active"{% endif %} >Book</a>
                 </li>
+                -->
             </ul>
         </div>
       </nav>
