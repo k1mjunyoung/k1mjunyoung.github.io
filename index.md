@@ -3,7 +3,7 @@ layout: default
 title: "KIM JUN YOUNG"
 main: true
 subtitle: Software Engineer, Kim Jun Young.
-description: Jihye Leee, who is a Software Engineer based in Republic of Korea. | '김준영' 소프트웨어 엔지니어입니다.
+description: Kim Jun Young, who is a Software Engineer based in Republic of Korea. | '김준영' 소프트웨어 엔지니어입니다.
 ---
 <div class="intro-animation">
 <section class="explanation">
