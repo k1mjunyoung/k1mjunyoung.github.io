@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          KIM JUN YOUNG
 baseurl:        ""
-url:            "https://www.jihyeleee.com"
+url:            "https://www.kimjunyoung.com"
 
 # Assets
 sass:
@@ -17,7 +17,7 @@ markdown:       kramdown
 # About
 author:
   name:         KIM JUN YOUNG
-  url:          https://jihyeleee.com/
+  url:          https://kimjunyoung.com/
   email:        me@kimjunyoung.com
   github:       k1mjunyoung
   twitter:      
@@ -25,4 +25,4 @@ author:
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/iamleejihye/k1mjunyoung.github.io
+  repo:         https://github.com/k1mjunyoung.github.io
