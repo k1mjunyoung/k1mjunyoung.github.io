@@ -1,4 +1,6 @@
 - name: C
 - name: Python
 - name: HTML & CSS
+- name: MySQL
+- name: PHP
 - name: Git
