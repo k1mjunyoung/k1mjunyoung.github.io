@@ -3,15 +3,15 @@
 #  role: Product Design Lead
 #  date: 2021. APR - Current
 
-#third-place:
-#- name: RIDI
-#  role: Digital Product Designer, Team Manager
-#  date: 2015. JUN - 2020. DEC
+third-place:
+- name: K-water 대국민 물 빅데이터 공모전
+  role: Developer
+  date: 2022. APR - 2022. JUL
 
 second-place:
 - name: SCV (VPN)
   role: Server Engineer
-  date: 2022. MAR - 
+  date: 2022. MAR - 2022. JUN
 
 first-place:
 - name: Department of Information Security Engineering
