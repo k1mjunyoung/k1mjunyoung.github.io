@@ -16,7 +16,7 @@ role-specific: "Sketching, Prototyping, Application, Server"
 team: "앱 개발 3명, 서버 개발 2명"
 platforms: "Android(Client), UNIX(Server)"
 date: "Mar 2022 - Jun 2022"
-order: 1
+order: 2
 ---
 *작성중인 글입니다.*
 
