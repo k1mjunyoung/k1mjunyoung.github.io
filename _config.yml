@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          KIM JUN YOUNG
 baseurl:        ""
-url:            "https://www.kimjunyoung.com"
+url:            "https://kimjunyoung.com"
 
 # Assets
 sass:
