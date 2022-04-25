@@ -3,7 +3,7 @@ layout: post
 author: "KIM JUN YOUNG"
 title:  "K-water 대국민 물 빅데이터 공모전"
 subtitle: ""
-type: "Contest"
+type: "CONTEST"
 projects: true
 text: true
 ridi: true
