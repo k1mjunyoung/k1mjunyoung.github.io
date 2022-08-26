@@ -14,20 +14,26 @@ main-img: "img/scv.jpg"
 role-title: "서버 개발자"
 role-specific: "AWS, Linux, L2TP, IPSec"
 team: "앱 개발 3명, 서버 개발 2명"
-platforms: "Android(Client), UNIX(Server)"
+platforms: "Android(Client), Linux(Server)"
 date: "Mar 2022 - Jun 2022"
 order: 1
 ---
-*현재 진행중인 프로젝트입니다.*
-
 # Overview
 
-AWS[^1]에 오픈소스 VPN 프로토콜을 이용한 VPN 서버 개발
-
-# 서버 환경 구축
+오픈소스 VPN 프로토콜을 이용한 신뢰할 수 있는 VPN 서버 개발
 
 # VPN 프로토콜
+>   L2TP (Layer 2 Tunneling Protocol)  
+>   IPsec (Internet Protocal Security)
+
+# 서버 구축
+>   AWS EC2  
+>   Ubuntu Linux 22.04
 
 # 연결
-
-[^1]:Amazon Web Services
+![IP 주소](img/ip_aws.jpg)
+<div style="text-align: center">AWS에 구축한 서버의 IP 주소</div>
+<br>
+<img src="img/ip.png" width="50%" height="50%" title="IP" alt="IP Address">
+<div style="text-align: center">VPN에 접속한 후 확인한 IP 주소</div>
+<br>
