@@ -18,7 +18,6 @@ platforms: "-"
 date: "Mar 2022 - Jul 2022"
 order: 2
 ---
-*현재 진행중인 프로젝트입니다.*
 
 # Overview
 
