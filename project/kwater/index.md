@@ -11,9 +11,9 @@ portfolio: true
 post-header: true
 header-img: "img/header.png"
 main-img: "img/kwater.png"
-role-title: "개발자"
+role-title: "데이터 엔지니어"
 role-specific: "Numercial modeling, Python"
-team: "기획자 2, 개발자 2"
+team: "기획자 2, 데이터 엔지니어 2"
 platforms: "-"
 date: "Mar 2022 - Jul 2022"
 order: 2
