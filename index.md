@@ -7,11 +7,8 @@ description: Kim Jun Young, who is a Software Engineer based in Republic of Kore
 ---
 <div class="intro-animation">
 <section class="explanation">
-    <h1 class="intro">
-    I'm Kim Jun Young,
-    </h1>
-    <h1 class="intro">a Software Engineer.
-    </h1>
+    <h1 class="intro">Hi👋 I'm Kim Jun Young,</h1>
+    <h1 class="intro">a Software Engineer.</h1>
     <h2 class="intro">소프트웨어 엔지니어 김준영입니다.</h2>
 </section>
 </div>

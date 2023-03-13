@@ -3,17 +3,22 @@
 #  role: Product Design Lead
 #  date: 2021. APR - Current
 
+fourth-place:
+- name: 멋쟁이사자처럼 11기
+  role: Back-end Engineer
+  date: 2023. 03 - 
+
 third-place:
 - name: K-water 대국민 물 빅데이터 공모전
   role: Data Engineer
-  date: 2022. APR - 2022. JUL
+  date: 2022. 04 - 2022. 07
 
 second-place:
 - name: Team SCV
   role: Server Engineer
-  date: 2022. MAR - 
+  date: 2022. 03 - 2022. 12
 
 first-place:
 - name: Department of Information Security Engineering
   role: Student
-  date: 2018. MAR - 
+  date: 2018. 03 - 
