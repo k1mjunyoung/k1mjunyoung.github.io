@@ -12,7 +12,10 @@
                     <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "book" or current[1] == "project" %} class="normal" {% endif %} class="active">Home</a>
                 </li>
                 <li class="transition">
-                    <a href="https://velog.io/@1998" target="_blank" {% if current[1] == "project" %} class="active"{% endif %} >Blog</a>
+                    <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Project</a>
+                </li>
+                <li class="transition">
+                    <a href="https://velog.io/@1998" target="_blank" {% if current[1] == "blog" %} class="active"{% endif %} >Blog <i class="fa-solid fa-circle-arrow-right"></i></a>
                 </li>
                 <li class="transition">
                     <a href="https://www.github.com/k1mjunyoung" target="_blank" {% if current[1] == "github" %} class="active" {% endif %} >Github <i class="fa-solid fa-circle-arrow-right"></i></a>
