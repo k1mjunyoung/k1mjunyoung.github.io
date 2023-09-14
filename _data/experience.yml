@@ -9,22 +9,22 @@ seventh-place:
   date: 2023. 06 - 2023. 12
 
 sixth-place:
-- name: SCH SW창업동아리 "I-go"
-  role: Back-end
-  date: 2023. 04 - 2023.06
-
-fifth-place:
-- name: 멋쟁이사자처럼 중앙해커톤 참가
+- name: 멋쟁이사자처럼 해커톤
   role: Developer
   date: 2023. 08. 18
 
-fourth-place:
+fifth-place:
 - name: 멋쟁이사자처럼 대학 11기
   role: Back-end
   date: 2023. 03 - 2023. 12
 
+fourth-place:
+- name: SCH SW창업동아리 "I-go"
+  role: Back-end
+  date: 2023. 04 - 2023.06
+
 third-place:
-- name: K-water 대국민 물 빅데이터 공모전
+- name: K-water<br>대국민 물 빅데이터 공모전
   role: Data Engineer
   date: 2022. 04 - 2022. 07
 
