@@ -1,6 +1,10 @@
-- name: Algorithm solving using C language
-- name: Simple front-end development using HTML & CSS
-- name: WEB development using Django
-- name: WEB development using Springboot
-- name: Database management using MySQL
-- name: Collaborate with team using Git
+- name: C
+- name: Java
+- name: Springboot
+- name: MySQL
+- name: Python
+- name: Django
+- name: HTML & CSS
+- name: Javascript
+- name: Figma
+- name: Git

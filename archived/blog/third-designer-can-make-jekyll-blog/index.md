@@ -3,7 +3,7 @@ layout: post
 title:  "본격적으로 Jekyll Theme 커스터마이징하기"
 subtitle: "디자이너도 만드는 Jekyll Blog - 3편"
 type: "Development"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

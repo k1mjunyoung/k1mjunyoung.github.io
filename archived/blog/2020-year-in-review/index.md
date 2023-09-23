@@ -3,7 +3,7 @@ layout: post
 title:  "늦은 감이 있는 2020년 연말 정산"
 subtitle: "코로나로 점철된 한 해, 나는 무엇을 했나"
 type: "Year in Review"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

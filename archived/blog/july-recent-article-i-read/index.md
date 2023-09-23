@@ -3,7 +3,7 @@ layout: post
 title:  "최근 읽은 콘텐츠 - 2018 July"
 subtitle: "PM, 구독서비스, 공유오피스, 창업가, 사적인 개인의 리스트"
 type: "Archive"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

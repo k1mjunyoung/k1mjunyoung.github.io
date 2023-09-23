@@ -3,7 +3,7 @@ layout: post
 title:  "디자인 시스템을 잘 만들고 싶다면? 뉴스레터를 시작하라"
 subtitle: "'Design Systems'의 아티클 01"
 type: "Translation & Summary"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

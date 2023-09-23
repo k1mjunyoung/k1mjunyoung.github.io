@@ -3,7 +3,7 @@ layout: post
 title:  "2018년 연말 정산"
 subtitle: "올 한 해 디자이너로서 나의 활동들"
 type: "Year in Review"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

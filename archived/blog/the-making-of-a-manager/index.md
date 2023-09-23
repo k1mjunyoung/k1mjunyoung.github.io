@@ -3,7 +3,7 @@ layout: post
 title:  "&lt;팀장의 탄생&gt;을 읽고"
 subtitle: "페이스북 디자인 부문 부사장 줄리 주오(Julie Zhuo)의 책을 읽고"
 type: "Book Review"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

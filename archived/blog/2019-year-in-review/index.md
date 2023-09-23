@@ -3,7 +3,7 @@ layout: post
 title:  "안식년이었던 2019년 연말 정산"
 subtitle: "올 한 해 나는 무엇을 했나 🤔"
 type: "Year in Review"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true

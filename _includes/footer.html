@@ -1,12 +1,6 @@
 <footer>
     <address class="footer_wrap">
         <div class="information">
-            <div class="myname">
-                KIM JUN YOUNG
-            </div>
-            <a href="mailto:me@kimjunyoung.com" class="email">
-                me@kimjunyoung.com
-            </a>
             <div class="accounts">
                 <a href="http://github.com/k1mjunyoung" target="_blank" class="transition">
                     <svg viewBox="0 0 32.6 31.8">
@@ -19,11 +13,17 @@
                     </svg>
                 </a>
             </div>
+            <div class="myname">
+                &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}.
+            </div>
+            <a href="mailto:me@kimjunyoung.com" class="email">
+                me@kimjunyoung.com
+            </a>
         </div>
-        <div class="copyright">
+        <!-- <div class="copyright">
             <span>
-                &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. 
+                &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> KIM JUN YOUNG. 
             </span>
-        </div>    
+        </div> -->
     </address>
 </footer>

@@ -107,12 +107,11 @@ footer {
             }
             
             .accounts {
-                margin-top: 36px;
                 a {
                     margin-right: 24px;
                     svg {
                         fill: $default-tint;
-                        width: 20px;
+                        width: 40px;
                     }
                 }
                 a:hover {

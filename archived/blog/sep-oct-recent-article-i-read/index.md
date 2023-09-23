@@ -3,7 +3,7 @@ layout: post
 title:  "최근 읽은 콘텐츠 - 2018 September, October"
 subtitle: "애플 앱스토어, 글쓰기, Job crafting, 지니어스, PUBLY, Airbnb, 디자인 시스템, 원격근무"
 type: "Archive"
-blog: true
+blog: false
 text: true
 author: "Jihye Leee"
 post-header: true
