@@ -388,3 +388,64 @@ sup {
 video {
     margin-bottom: 16px;
 }
+
+.toc {
+        position: absolute;
+        right: 0;
+        margin-right: 0px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        color: black;
+        padding: 0.25rem 0.25rem;
+        font-size: 0.7rem;
+        border-left: 2px solid #e0d9e7;
+
+        display: none;
+        @media (min-width: 75em) {
+            width: 240px;
+            display: block;
+        }
+        @media (min-width: 85em) {
+            width: 300px;
+            display: block;
+        }
+        @media (min-width: 95em) {
+            width: 360px;
+            display: block;
+        }
+
+        a.toc-active {
+            font-weight: bold;
+            transition: all 0.125s ease-in 0s;
+            font-size: 0.75rem;
+            color: #9075aa;
+        }
+
+        ul {
+            list-style-type: none !important;
+            margin-bottom: 0.1rem;
+            padding-left: 0rem;
+
+            li:before {
+                content: none;
+            }
+
+            li {
+                padding-left: .5rem;
+                margin-left: 0 !important;
+            }
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+        }
+    }
+
+    .toc li a {
+        text-decoration-line: none !important;
+    }
