@@ -79,19 +79,21 @@ layout: default
             {% for book-list in site.data[page.data-name] %}   
                 <a href="https://select.ridibooks.com/book/{{ book-list.bookid }}" target="_blank" class="book-link">
                     <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge?dpi=xxhdpi"/>
-                </a>   
+                </a>
             {% endfor %}
         {% endif %}
     {% endif %}
 </div>
 
-<script src="https://utteranc.es/client.js"
-        repo="k1mjunyoung/utterances"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+{% if page.blog == true %}
+    <script src="https://utteranc.es/client.js"
+            repo="k1mjunyoung/utterances"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+{% endif %}
 
 <script>
     function getTOCNodes(master) {
