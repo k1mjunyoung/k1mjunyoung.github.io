@@ -1,3 +1,18 @@
+---
+layout: post
+title:  "객체는 붕어빵이 아닙니다"
+subtitle: "MIT에서 가르치는 객체지향"
+type: "Tech"
+blog: true
+text: true
+author: "Kim Jun Young"
+post-header: true
+header-img: "https://velog.velcdn.com/images/1998/post/52ba04f4-0730-447b-9f59-e9102a4075b6/image.avif"
+order: 4
+date: 2023-11-30
+toc: true
+---
+
 # 객체지향이란
 
 > 객체끼리는 서로 **공존**하는 관계
