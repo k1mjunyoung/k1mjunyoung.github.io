@@ -19,14 +19,14 @@ sixth-place:
   date: 2023. 08. 18
 
 fifth-place:
-- name: 멋쟁이사자처럼 대학 11기
-  role: Back-end
-  date: 2023. 03 - 2023. 12
-
-fourth-place:
 - name: SCH SW창업동아리 "I-go"
   role: Back-end
   date: 2023. 04 - 2023.06
+
+fourth-place:
+- name: 멋쟁이사자처럼 대학 11기
+  role: Back-end
+  date: 2023. 03 - 2023. 12
 
 third-place:
 - name: K-water<br>대국민 물 빅데이터 공모전
@@ -41,4 +41,4 @@ second-place:
 first-place:
 - name: Information Security Engineering
   role: Student
-  date: 2018. 03 - 
+  date: 2018. 03 - 2024. 02
