@@ -3,42 +3,18 @@
 #  role: Product Design Lead
 #  date: 2021. APR - Current
 
-eighth-place:
-- name: BLUECORE
-  role: Back-end Engineer
-  date: 2024. 01 -
-
-seventh-place:
-- name: BLUECORE
-  role: Web Developer(Intern)
-  date: 2023. 06 - 2023. 12
-
-sixth-place:
+third-place:
 - name: 멋쟁이사자처럼 중앙해커톤
-  role: Developer
+  sub: 기획, 백엔드
   date: 2023. 08. 18
 
-fifth-place:
+second-place:
 - name: SCH SW창업동아리 "I-go"
-  role: Back-end
+  role: 백엔드 개발자
   date: 2023. 04 - 2023.06
 
-fourth-place:
+first-place:
 - name: 멋쟁이사자처럼 대학 11기
-  role: Back-end
+  role: 백엔드 개발자
   date: 2023. 03 - 2023. 12
 
-third-place:
-- name: K-water<br>대국민 물 빅데이터 공모전
-  role: Data Engineer
-  date: 2022. 04 - 2022. 07
-
-second-place:
-- name: Team SCV
-  role: Server Engineer
-  date: 2022. 03 - 2022. 12
-
-first-place:
-- name: Information Security Engineering
-  role: Student
-  date: 2018. 03 - 2024. 02

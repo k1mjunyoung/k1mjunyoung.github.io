@@ -1,75 +1,15 @@
 <li class="workplace transition">
-    {% for eighth in site.data.experience.eighth-place %}
-    <p class="workplace-name" style="color: #2C41A1;">
-        {{ eighth.name }}
-    </p>
-    <div class="work-info">
-        <p>
-            {{ eighth.role }}
-        </p>
-        <p class="work-sub-info">
-            {{ eighth.date }}
-        </p>
-    </div>
-    {% endfor %}
-</li>
-
-<li class="workplace transition">
-    {% for seventh in site.data.experience.seventh-place %}
-    <p class="workplace-name" style="color: #2C41A1;">
-        {{ seventh.name }}
-    </p>
-    <div class="work-info">
-        <p>
-            {{ seventh.role }}
-        </p>
-        <p class="work-sub-info">
-            {{ seventh.date }}
-        </p>
-    </div>
-    {% endfor %}
-</li>
-
-<li class="workplace transition">
-    {% for sixth in site.data.experience.sixth-place %}
-    <p class="workplace-name" style="color: #FF7710;">
-        {{ sixth.name }}
-    </p>
-    <div class="work-info">
-        <p>
-            {{ sixth.role }}
-        </p>
-        <p class="work-sub-info">
-            {{ sixth.date }}
-        </p>
-    </div>
-    {% endfor %}
-</li>
-
-<li class="workplace transition">
-    {% for fifth in site.data.experience.fifth-place %}
+    {% for fourth in site.data.project.fourth-place %}
     <p class="workplace-name">
-        {{ fifth.name }}
-    </p>
-    <div class="work-info">
-        <p>
-            {{ fifth.role }}
-        </p>
-        <p class="work-sub-info">
-            {{ fifth.date }}
-        </p>
-    </div>
-    {% endfor %}
-</li>
-
-<li class="workplace transition">
-    {% for fourth in site.data.experience.fourth-place %}
-    <p class="workplace-name" style="color: #FF7710;">
+        {% if fourth.url == true %}
+        <a href="{{ fourth.url }}" target="_blank">{{ fourth.name }}</a>
+        {% else %}
         {{ fourth.name }}
+        {% endif %}
     </p>
     <div class="work-info">
         <p>
-            {{ fourth.role }}
+            {{ fourth.sub }}
         </p>
         <p class="work-sub-info">
             {{ fourth.date }}
@@ -79,13 +19,17 @@
 </li>
 
 <li class="workplace transition">
-    {% for third in site.data.experience.third-place %}
+    {% for third in site.data.project.third-place %}
     <p class="workplace-name">
+        {% if third.url == true %}
+        <a href="{{ third.url }}" target="_blank">{{ third.name }}</a>
+        {% else %}
         {{ third.name }}
+        {% endif %}
     </p>
     <div class="work-info">
         <p>
-            {{ third.role }}
+            {{ third.sub }}
         </p>
         <p class="work-sub-info">
             {{ third.date }}
@@ -95,13 +39,17 @@
 </li>
 
 <li class="workplace transition">
-    {% for second in site.data.experience.second-place %}
+    {% for second in site.data.project.second-place %}
     <p class="workplace-name">
+        {% if second.url == true %}
+        <a href="{{ second.url }}" target="_blank">{{ second.name }}</a>
+        {% else %}
         {{ second.name }}
+        {% endif %}
     </p>
     <div class="work-info">
         <p>
-            {{ second.role }}
+            {{ second.sub }}
         </p>
         <p class="work-sub-info">
             {{ second.date }}
@@ -111,13 +59,17 @@
 </li>
  
 <li class="workplace transition">
-    {% for first in site.data.experience.first-place %}
+    {% for first in site.data.project.first-place %}
     <p class="workplace-name">
+        {% if first.url == true %}
+        <a href="{{ first.url }}" target="_blank">{{ first.name }}</a>
+        {% else %}
         {{ first.name }}
+        {% endif %}
     </p>
     <div class="work-info">
         <p>
-            {{ first.role }}
+            {{ first.sub }}
         </p>
         <p class="work-sub-info">
             {{ first.date }}

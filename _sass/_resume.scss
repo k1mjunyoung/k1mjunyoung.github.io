@@ -40,7 +40,12 @@ div.resume-info {
                 float: none;
                 width: 100%;
             }
-            
+            p.work-sub-info {
+                color: $default-tint;
+                font-size: 16px;
+                font-family: $source;
+                font-weight: 400;
+            }
         }
 
         .work-info {
@@ -92,7 +97,6 @@ section.skill {
         fill: $main-blue;
         position: absolute;
     }
-    padding-bottom: 72px;
     
     li.skill_name {
         display: inline-block;
