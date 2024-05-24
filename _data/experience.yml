@@ -5,16 +5,16 @@
 
 third-place:
 - name: 멋쟁이사자처럼 중앙해커톤
-  sub: 기획, 백엔드
+  role: 기획, 백엔드
   date: 2023. 08. 18
 
 second-place:
 - name: SCH SW창업동아리 "I-go"
-  role: 백엔드 개발자
+  role: 기획, 백엔드
   date: 2023. 04 - 2023.06
 
 first-place:
 - name: 멋쟁이사자처럼 대학 11기
-  role: 백엔드 개발자
+  role: 백엔드(Java, Spring)
   date: 2023. 03 - 2023. 12
 

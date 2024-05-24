@@ -1,78 +1,78 @@
 <li class="workplace transition">
-    {% for fourth in site.data.project.fourth-place %}
+    {% for project in site.data.project.fifth-place %}
     <p class="workplace-name">
-        {% if fourth.url == true %}
-        <a href="{{ fourth.url }}" target="_blank">{{ fourth.name }}</a>
-        {% else %}
-        {{ fourth.name }}
-        {% endif %}
+        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
     </p>
     <div class="work-info">
         <p>
-            {{ fourth.sub }}
+            {{ project.sub }}
         </p>
         <p class="work-sub-info">
-            {{ fourth.date }}
+            {{ project.date }}
         </p>
     </div>
     {% endfor %}
 </li>
 
 <li class="workplace transition">
-    {% for third in site.data.project.third-place %}
+    {% for project in site.data.project.fourth-place %}
     <p class="workplace-name">
-        {% if third.url == true %}
-        <a href="{{ third.url }}" target="_blank">{{ third.name }}</a>
-        {% else %}
-        {{ third.name }}
-        {% endif %}
+        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
     </p>
     <div class="work-info">
         <p>
-            {{ third.sub }}
+            {{ project.sub }}
         </p>
         <p class="work-sub-info">
-            {{ third.date }}
+            {{ project.date }}
         </p>
     </div>
     {% endfor %}
 </li>
 
 <li class="workplace transition">
-    {% for second in site.data.project.second-place %}
+    {% for project in site.data.project.third-place %}
     <p class="workplace-name">
-        {% if second.url == true %}
-        <a href="{{ second.url }}" target="_blank">{{ second.name }}</a>
-        {% else %}
-        {{ second.name }}
-        {% endif %}
+        {{ project.name }}
     </p>
     <div class="work-info">
         <p>
-            {{ second.sub }}
+            {{ project.sub }}
         </p>
         <p class="work-sub-info">
-            {{ second.date }}
+            {{ project.date }}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+
+<li class="workplace transition">
+    {% for project in site.data.project.second-place %}
+    <p class="workplace-name">
+        {{ project.name }}
+    </p>
+    <div class="work-info">
+        <p>
+            {{ project.sub }}
+        </p>
+        <p class="work-sub-info">
+            {{ project.date }}
         </p>
     </div>
     {% endfor %}
 </li>
  
 <li class="workplace transition">
-    {% for first in site.data.project.first-place %}
+    {% for project in site.data.project.first-place %}
     <p class="workplace-name">
-        {% if first.url == true %}
-        <a href="{{ first.url }}" target="_blank">{{ first.name }}</a>
-        {% else %}
-        {{ first.name }}
-        {% endif %}
+        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
     </p>
     <div class="work-info">
         <p>
-            {{ first.sub }}
+            {{ project.sub }}
         </p>
         <p class="work-sub-info">
-            {{ first.date }}
+            {{ project.date }}
         </p>
     </div>
     {% endfor %}
