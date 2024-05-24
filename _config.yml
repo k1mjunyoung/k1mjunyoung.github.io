@@ -26,6 +26,3 @@ author:
 version:        3.4.1
 github:
   repo:         https://github.com/k1mjunyoung.github.io
-
-plugins:
-  - jekyll-toc

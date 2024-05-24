@@ -10,7 +10,6 @@ post-header: true
 header-img: "https://velog.velcdn.com/images/1998/post/2fdd77e7-39fe-44d4-a792-6f521b47329a/image.webp"
 order: 3
 date: 2023-11-27
-toc: true
 ---
 
 # 🧐 다이나믹 프로그래밍이란?
