@@ -7,6 +7,7 @@ type: "CAPSTONE DESIGN"
 projects: true
 text: true
 ridi: true
+catalogue: true
 portfolio: true
 post-header: true
 header-img: "img/header.jpg"

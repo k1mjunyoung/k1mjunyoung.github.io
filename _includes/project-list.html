@@ -1,7 +1,37 @@
 <li class="workplace transition">
+    {% for project in site.data.project.seventh-place %}
+    <p class="workplace-name">
+        {{ project.name }}
+    </p>
+    <div class="work-info">
+        <p>
+            {{ project.sub }}
+        </p>
+        <p class="work-sub-info">
+            {{ project.date }}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+<li class="workplace transition">
+    {% for project in site.data.project.sixth-place %}
+    <p class="workplace-name">
+        {{ project.name }}
+    </p>
+    <div class="work-info">
+        <p>
+            {{ project.sub }}
+        </p>
+        <p class="work-sub-info">
+            {{ project.date }}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+<li class="workplace transition">
     {% for project in site.data.project.fifth-place %}
     <p class="workplace-name">
-        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        {{ project.name }}
     </p>
     <div class="work-info">
         <p>
@@ -17,7 +47,7 @@
 <li class="workplace transition">
     {% for project in site.data.project.fourth-place %}
     <p class="workplace-name">
-        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        {{ project.name }}
     </p>
     <div class="work-info">
         <p>
@@ -65,7 +95,7 @@
 <li class="workplace transition">
     {% for project in site.data.project.first-place %}
     <p class="workplace-name">
-        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        {{ project.name }}
     </p>
     <div class="work-info">
         <p>

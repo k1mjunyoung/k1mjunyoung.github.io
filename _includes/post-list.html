@@ -18,9 +18,12 @@
             <p class="catalogue-sub">
                 {{ page.subtitle }}
             </p>
+            {% if page.catalogue == true %}
             <p class="catalogue-body">
                 {{ page.content | truncatewords: 24 | strip_html }}
             </p>
+            {% endif %}
+
         </div>
     </a>
 </li>    

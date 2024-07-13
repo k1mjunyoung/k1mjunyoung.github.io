@@ -4,7 +4,7 @@ author: "KIM JUN YOUNG"
 title:  "SQL Injection"
 subtitle: "SQL 인젝션 유형별 공격 및 방어기법 분석"
 type: "CAPSTONE DESIGN"
-projects: true
+projects: false
 text: true
 ridi: true
 portfolio: true

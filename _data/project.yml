@@ -3,6 +3,18 @@
 #  role: Product Design Lead
 #  date: 2021. APR - Current
 
+seventh-place:
+- name: KT UMS
+  sub: Unified Messaging System
+  date: 2024. 01 - 2024. 07
+  url: 
+
+sixth-place:
+- name: 위더스(Withus)
+  sub: 환자관리 다이애딕 웹 어플리케이션
+  date: 2023. 06 - 2023. 12
+  url: 
+
 fifth-place:
 - name: SQL-INJECTION-SPRING
   sub: 모의 SQL인젝션 웹서비스
